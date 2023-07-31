@@ -9,6 +9,11 @@ class UserRoutes {
         console.log(user)
     }
 
+    get() {
+        console.log({ id: 1, name: `Alex` })
+    }
+
+
 }
 
 export default new UserRoutes();
